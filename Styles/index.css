@@ -1,0 +1,80 @@
+@font-face {
+    font-family: "CCBattleScarred-Regular";
+    src: url("https://db.onlinewebfonts.com/t/84e3315efd6d7a693d63e7fc745bfc25.eot");
+    src: url("https://db.onlinewebfonts.com/t/84e3315efd6d7a693d63e7fc745bfc25.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/84e3315efd6d7a693d63e7fc745bfc25.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/84e3315efd6d7a693d63e7fc745bfc25.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/84e3315efd6d7a693d63e7fc745bfc25.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/84e3315efd6d7a693d63e7fc745bfc25.svg#CCBattleScarred-Regular")format("svg");
+}
+
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  
+  ::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0);
+  }
+  
+  
+  ::-webkit-scrollbar-thumb {
+    background: black;
+  }
+  
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: black;
+  }
+
+body {
+    background: linear-gradient(59deg, rgba(55,76,165,1) 0%, rgba(167,31,219,1) 75%);
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+}
+
+.unselectable {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 250px;
+}
+
+button{
+    padding: 25px 20px;
+    background-color: #00000010;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    overflow: hidden;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  button:hover{
+      background: #a20cff9f;
+      color: white;
+      box-shadow: 0 0 5px #a20cff9f,
+                  0 0 25px #a20cff9f,
+                  0 0 50px #a20cff9f,
+                  0 0 200px #a20cff9f;
+  }
