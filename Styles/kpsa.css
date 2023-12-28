@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Ubuntu&display=swap');
+
+* {
+    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+}
+
+.unselectable {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
+
+  h2 {
+    color: white;
+    text-align: center;
+    font-size: 72px;
+    margin-bottom: 150px;
+  }
+
+  .left {
+    float: left;
+    margin-left: 200px;
+    color: white;
+    font-size: 24px;
+    max-width: 45%;
+  }
+
+  .right {
+    float: right;
+    margin-right: 200px;
+  }
+
+  .odstep {
+    margin-top: 850px;
+    margin-bottom: 50px;
+    font-size: 72px;
+  }
+
+a {
+    text-decoration: none;
+
+}
+
+  button{
+    padding: 25px 30px;
+    background-color: #00000010;
+    color: white;
+    font-weight: lighter;
+    font-size: 26px;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    overflow: hidden;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+  }
+  
+  button:hover{
+      background: #a20cff9f;
+      color: white;
+      box-shadow: 0 0 5px #a20cff9f,
+                  0 0 25px #a20cff9f,
+                  0 0 50px #a20cff9f,
+                  0 0 200px #a20cff9f;
+  }
